@@ -175,8 +175,6 @@ svg.append("text")
 
   //reformatting x-axis
 
- 
-  
  // Add the y-axis
 
 //svg.append("g")
