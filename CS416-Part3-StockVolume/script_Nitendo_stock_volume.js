@@ -101,18 +101,32 @@ const y = d3.scaleLinear()
         .attr("y", d => y(d.volume))
         .attr("width", x.bandwidth())
         .attr("height", d => height - y(d.volume))
-        .on("mouseover", (event, d) => {
-        tooltip.transition().duration(200).style("opacity", 0.9);
-        tooltip.html(`Year: ${d.year}<br>Volume: ${(d.volume / 1e6).toFixed(2)}M`)
-        .style("left", (event.pageX + 10) + "px")
-        .style("top", (event.pageY - 28) + "px");
+        //.on("mouseover", (event, d) => {
+        //tooltip.transition().duration(200).style("opacity", 0.9);
+        //tooltip.html(`Year: ${d.year}<br>Volume: ${(d.volume / 1e6).toFixed(2)}M`)
+        //.style("left", (event.pageX + 10) + "px")
+        //.style("top", (event.pageY - 28) + "px");
         
-  })
+  //})
 
-.on("mouseout", () => {
-    tooltip.transition().duration(500).style("opacity", 0);
+//.on("mouseout", () => {
+    //tooltip.transition().duration(500).style("opacity", 0);
     
-  });
+  //});
+
+.on("mouseover", function (event, d) {
+        tooltip.transition().duration(200).style("opacity", 0.9);
+        tooltip.style("visibility", "visible").text(`Stock volume: ${(d.volume / 1e6).toFixed(2)}M`);
+      
+        })
+        .on("mousemove", function (event) {
+          tooltip
+            .style("top", event.pageY - 40 + "px")
+            .style("left", event.pageX + 10 + "px");
+        })
+        .on("mouseout", function () {
+          tooltip.style("visibility", "hidden");
+        });
 
 
 // Volume labels on top of bars
