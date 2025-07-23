@@ -123,15 +123,15 @@ const y = d3.scaleLinear()
 
 // Volume labels on top of bars
 
-    svg.selectAll(".label")
-      .data(volumeByYear)
-      .enter().append("text")
-      .attr("class", "label")
-      .attr("x", d => x(d.year) + x.bandwidth() / 2)
-      .attr("y", d => y(d.volume) - 5)
-      .attr("text-anchor", "middle")
+    //svg.selectAll(".label")
+      //.data(volumeByYear)
+      //.enter().append("text")
+      //.attr("class", "label")
+      //.attr("x", d => x(d.year) + x.bandwidth() / 2)
+      //.attr("y", d => y(d.volume) - 5)
+      //.attr("text-anchor", "middle")
       //.text(d => d.volume.toLocaleString());
-      .text(d => (d.volume / 1e6).toFixed(2) + "M");
+      //.text(d => (d.volume / 1e6).toFixed(2) + "M");
 
 
 /// Add Y-axis label
