@@ -167,12 +167,6 @@ svg.append("text")
   // Set the domains for the x and y scales
   
  
-
-    
-
- 
-
-  
   // Add the x-axis
 
   //svg.append("g")
