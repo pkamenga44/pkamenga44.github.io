@@ -1,5 +1,5 @@
 // Set dimensions and margins for the chart
-const margin = { top: 70, right: 60, bottom: 40, left: 80 };
+const margin = { top: 80, right: 60, bottom: 40, left: 80 };
 const width = 1200 - margin.left - margin.right;
 const height = 500 - margin.top - margin.bottom;
 
@@ -313,6 +313,6 @@ const tooltipLineY = svg.append("line")
   .style("font-size", "20px")
   .style("font-weight", "normal")
   .style("font-family", "sans-serif")
-  .text("Nintendo Co., Ltd. (NTDOY)");
+  .text("Nintendo Co., Ltd. (NTDOY) High Price");
 
    });
