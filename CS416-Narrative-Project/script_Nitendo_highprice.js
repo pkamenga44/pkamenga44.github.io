@@ -1,6 +1,6 @@
 // Set dimensions and margins for the chart
-const margin = { top: 70, right: 60, bottom: 40, left: 80 };
-const width = 400 - margin.left - margin.right;
+const margin = { top: 40, right: 40, bottom: 40, left: 40 };
+const width = 1200 - margin.left - margin.right;
 const height = 300 - margin.top - margin.bottom;
 
 // Set up the x and y scales
