@@ -43,7 +43,7 @@ const gradient = svg.append("defs")
 
 gradient.append("stop")
   .attr("offset", "0%")
-  .attr("stop-color", "#85bb65")
+  .attr("stop-color", "red")
   .attr("stop-opacity", 1);
 
 gradient.append("stop")
