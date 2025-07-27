@@ -43,12 +43,12 @@ const gradient = svg.append("defs")
 
 gradient.append("stop")
   .attr("offset", "0%")
-  .attr("stop-color", "red")
+  .attr("stop-color", "#85bb65")
   .attr("stop-opacity", 1);
 
 gradient.append("stop")
   .attr("offset", "100%")
-  .attr("stop-color", "red")
+  .attr("stop-color", "#85bb65")
   .attr("stop-opacity", 0);
 
 
@@ -148,7 +148,7 @@ d3.csv("https://raw.githubusercontent.com/pkamenga44/pkamenga44.github.io/main/N
   .datum(data)
   .attr("class", "line")
   .attr("fill", "none")
-  .attr("stroke", "red")
+  .attr("stroke", "#85bb65")
   .attr("stroke-width", 1)
   .attr("d", line);
 
@@ -248,7 +248,7 @@ const tooltipLineY = svg.append("line")
     .tickFormat(d3.timeFormat('%Y-%m-%d'))
     .ticks(3)
     .default([d3.min(data, d => d.Date), d3.max(data, d => d.Date)])
-    .fill('red');
+    .fill('#85bb65');
 
     //Apply the slider
 
