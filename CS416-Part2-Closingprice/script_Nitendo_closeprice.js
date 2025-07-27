@@ -246,7 +246,7 @@ const tooltipLineY = svg.append("line")
     .tickFormat(d3.timeFormat('%Y-%m-%d'))
     .ticks(3)
     .default([d3.min(data, d => d.Date), d3.max(data, d => d.Date)])
-    .fill('red');
+    .fill("red");
 
     //Apply the slider
 
