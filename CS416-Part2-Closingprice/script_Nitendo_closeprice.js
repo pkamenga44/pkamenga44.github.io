@@ -48,7 +48,7 @@ gradient.append("stop")
 
 gradient.append("stop")
   .attr("offset", "100%")
-  .attr("stop-color", "#85bb65")
+  .attr("stop-color", "red")
   .attr("stop-opacity", 0);
 
 
