@@ -148,7 +148,7 @@ d3.csv("https://raw.githubusercontent.com/pkamenga44/pkamenga44.github.io/main/N
   .datum(data)
   .attr("class", "line")
   .attr("fill", "none")
-  .attr("stroke", "red")
+  .attr("stroke", "green")
   .attr("stroke-width", 1)
   .attr("d", line);
 
