@@ -212,5 +212,5 @@ svg.append("text")
 //}
 
 function startOver() {
-    window.location.href = "https://pkamenga44.github.io/CS416-Narrative-Project/";
+    window.location.href = "https://pkamenga44.github.io/CS416-Part1_Highprice/index_Nintendo_highprice.html";
 }
