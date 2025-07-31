@@ -316,3 +316,13 @@ const tooltipLineY = svg.append("line")
   .text("Nintendo Co., Ltd. (NTDOY) daily high pricess");
 
    });
+
+   // Page navigation
+
+   function goBack() {
+    window.location.href = "https://pkamenga44.github.io/CS416-Narrative-Project/";
+}
+
+function goNext() {
+    window.location.href = "https://pkamenga44.github.io/CS416-Part2-Closingprice/index_Nintendo_closeprice.html";
+}
