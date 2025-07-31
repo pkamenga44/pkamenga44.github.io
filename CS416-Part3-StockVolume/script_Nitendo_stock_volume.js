@@ -200,3 +200,17 @@ svg.append("text")
 
 
    })
+
+// Scenes Page navigation
+
+   function goBack() {
+    window.location.href = "https://pkamenga44.github.io/CS416-Part2-Closingprice/index_Nintendo_closeprice.html";
+}
+
+//function goNext() {
+    //window.location.href = "https://pkamenga44.github.io/CS416-Narrative-Project/";
+//}
+
+function startOver() {
+    window.location.href = "https://pkamenga44.github.io/CS416-Narrative-Project/";
+}

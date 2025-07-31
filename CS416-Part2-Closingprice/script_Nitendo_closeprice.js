@@ -315,7 +315,7 @@ const tooltipLineY = svg.append("line")
 
    });
 
-   // Scenes Page navigation
+// Scenes Page navigation
 
    function goBack() {
     window.location.href = "https://pkamenga44.github.io/CS416-Part1_Highprice/index_Nintendo_highprice.html";
