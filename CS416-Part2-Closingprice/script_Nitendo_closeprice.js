@@ -314,3 +314,13 @@ const tooltipLineY = svg.append("line")
   .text("Nintendo Co., Ltd. (NTDOY) close prices");
 
    });
+
+   // Scenes Page navigation
+
+   function goBack() {
+    window.location.href = "https://pkamenga44.github.io/CS416-Part1_Highprice/index_Nintendo_highprice.html";
+}
+
+function goNext() {
+    window.location.href = "https://pkamenga44.github.io/CS416-Part3-StockVolume/index_Nintendo_stock_volume.html";
+}
