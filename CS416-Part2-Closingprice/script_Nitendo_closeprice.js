@@ -311,7 +311,7 @@ const tooltipLineY = svg.append("line")
   .style("font-size", "20px")
   .style("font-weight", "normal")
   .style("font-family", "sans-serif")
-  .text("Nintendo Co., Ltd. (NTDOY) close prices");
+  .text("Nintendo Co., Ltd. (NTDOY) daily close prices");
 
    });
 
