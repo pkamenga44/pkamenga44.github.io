@@ -313,7 +313,7 @@ const tooltipLineY = svg.append("line")
   .style("font-family", "sans-serif")
   .text("Nintendo Co., Ltd. (NTDOY) daily close prices");
 
-   });
+   })
 
 // Scenes Page navigation
 
